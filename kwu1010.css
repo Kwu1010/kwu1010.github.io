@@ -1,5 +1,8 @@
 body {
 	background-image: url("background_image.jpg");
+	background-position-x: center;
+	background-repeat: no-repeat;
+	background-color: rgb(11, 30, 36);
 	color: rgb(117, 155, 206);
 	text-align: center;
 }
