@@ -9,7 +9,8 @@ body {
 
 header {
 	position: sticky;
-		margin-top: 0;
+		top: 0;
+	margin-top: -1%;
 	opacity: 0.8;
 	background: #4b546d;
 }
@@ -77,20 +78,47 @@ nav a:hover::before {
 .background {
 	position: fixed;
 		z-index: -3;
-	  	top: 0px;
+	  	top: 0%;
 		width: 80%;
 		left: 10%;
 	  	-webkit-filter: blur(3px);
 	  	filter: blur(3px);
 }
+.section_border {
+	position: relative;
+		z-index: -2;
+	  	margin-top: 5%;
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+	border: 0.25vw solid white;
+	box-shadow: 0 0 2vw #ffffff;
+}
 .center_image {
+	z-index: -1;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 4%;
+	width: 37.5%;
+}
+.center_text {
+	z-index: 0;
+	position: absolute;
+		width: 27.5%;
+		margin-left: 35.5%;
+		text-align: left;
+}
+.left_image {
+	z-index: -1;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 2.5%;
 	width: 37.5%;
 }
-.center_text {
+.left_text {
+	z-index: 0;
 	position: absolute;
 		width: 27.5%;
 		margin-left: 35.5%;
