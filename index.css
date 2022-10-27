@@ -90,6 +90,7 @@ nav a:hover::before {
 }
 .section_border {
 	position: relative;
+	z-index: -1;
 	margin-top: 5%;
 	width: 100%;
 	margin-left: auto;
