@@ -130,3 +130,13 @@ nav a:hover::before {
 .initial_text {
 	margin-top: -50%;
 }
+.contact_me {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: -40%;
+}
+a {
+	color: white;
+	text-decoration: none;
+}
