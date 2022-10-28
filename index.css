@@ -114,18 +114,46 @@ nav a:hover::before {
 	margin-top: -5%;
 	text-align: left;
 }
-.left_image {
+.video_image {
 	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 2.5%;
+	position: relative;
+	margin-left: 50%;
+	margin-top: 4%;
+	margin-bottom: 5%;
 	width: 37.5%;
 }
-.left_text {
+.video_text {
 	position: absolute;
 	width: 27.5%;
-	margin-left: 35.5%;
+	margin-left: 55%;
+	margin-top: -5%;
 	text-align: left;
+}
+.container_grid {
+	position: relative;
+	margin-top: -42.5%;
+}
+.youtube-video-container {
+	position: relative;
+	overflow: hidden;
+	width: 60%;
+	margin-left: 15%;
+	margin-top: 5%;
+	margin-bottom: -17.5%;
+}
+.youtube-video-container::after {
+	display: block;
+	content: "";
+	padding-top: 56.25%;
+}
+.youtube-video-container iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 50%;
+	height: 50%;
+	border: 0.25vw solid white;
+	box-shadow: 0 0 2vw #ffffff;
 }
 
 /*================================*/
