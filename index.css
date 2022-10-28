@@ -88,11 +88,11 @@ nav a:hover::before {
 	z-index: -1;
 	width: 100%;
 	height: 10%;
+	margin-top: -1%;
 }
 .section_border {
 	position: relative;
-	z-index: -1;
-	margin-top: 5%;
+	z-index: 0;
 	width: 100%;
 	margin-left: auto;
 	margin-right: auto;
@@ -104,12 +104,14 @@ nav a:hover::before {
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 4%;
+	margin-bottom: 5%;
 	width: 37.5%;
 }
 .center_text {
 	position: absolute;
 	width: 27.5%;
 	margin-left: 35.5%;
+	margin-top: -5%;
 	text-align: left;
 }
 .left_image {
