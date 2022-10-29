@@ -99,9 +99,6 @@ a:hover::before {
 
 /*================================*/
 
-.container {
-    max-width: 100vw;
-}
 .left {
     text-align: left;
     left: 0px;
@@ -124,6 +121,25 @@ a:hover::before {
     width: 80%;
     top: 0%;
 	left: 9.75%;
+}
+.container {
+    max-width: 100vw;
+}
+.nested_container {
+    max-width: 80%;
+    margin: 0 auto;
+}
+.image {
+    width: 50%;
+}
+
+/*================================*/
+
+.no_top_buffer {
+    margin-top: -7%;
+}
+.top_buffer {
+    margin-top: 7%;
 }
 
 /*================================*/
