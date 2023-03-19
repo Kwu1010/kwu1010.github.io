@@ -111,7 +111,7 @@ nav a:hover::before {
 	position: absolute;
 	width: 27.5%;
 	margin-left: 35.5%;
-	margin-top: -5%;
+	margin-top: -20%;
 	text-align: left;
 }
 .video_image {
