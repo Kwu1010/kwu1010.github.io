@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: "Trebuchet MS", sans-serif;
     margin: 0;
 }
 
@@ -10,33 +10,36 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
+	z-index: 42;
+	position: sticky;
 }
   
 .logo {
-    font-size: 2vw;
+    font-size: 3.5vh;
     color: #ffffff;
     text-decoration: none;
-    margin-left: 1vw;
+    white-space: nowrap;
+    margin-left: 2vw;
 }
 
 nav ul {
     list-style: none;
     display: flex;
     align-items: center;
-    margin-right: 1vw;
+    margin-right: 2vw;
 }
   
 nav li {
     flex: 1;
     margin-left: 2vw;
-    white-space: nowrap;
 }
   
 nav a {
-    font-size: 1.25vw;
+    font-size: 2.5vh;
     color: #ffffff;
     text-transform: uppercase;
     text-decoration: none;
+    white-space: nowrap;
 }
   
 nav a:hover {
