@@ -1,0 +1,21 @@
+.textbox {
+    background-color: #4b546d;
+	opacity: 0.8;
+    padding: 0.1vh;
+}
+
+.text {
+    color: #ffffff;
+    text-decoration: none;
+    white-space: nowrap;
+    text-shadow: #4b546d;
+    margin: 3vw;
+}
+
+.tasklist {
+    background-color: #2a2e38;
+	opacity: 0.8;
+    padding: 0.1vh;
+    height: 100vh;
+    overflow: hidden;
+}
