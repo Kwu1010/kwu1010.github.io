@@ -8,7 +8,6 @@
 }
 
 .task {
-    background-color: #4b546d;
     border: 1px solid #ddd;
     border-radius: 5px;
     color: #ffffff;
@@ -17,6 +16,18 @@
     flex: 0 0 calc(5% - 20px); /* 20 segments */
     display: flex;
     align-items: center;
+}
+
+.daily {
+    background-color: #373b6e;
+}
+
+.weekly {
+    background-color: #4b546d;
+}
+
+.event {
+    background-color: #493a28;
 }
 
 .task-description {
