@@ -16,3 +16,15 @@ body {
     text-shadow: #4b546d;
     margin: 3vw;
 }
+
+.docbox {
+    background-color: #2a2e38d0;
+}
+
+.doc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    overflow: auto;
+}
