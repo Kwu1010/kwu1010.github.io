@@ -1,0 +1,2 @@
+Home should contain the current index.html, and replace it in the navbar
+Navbar should be updated to play an animation and redirect to home/home.html

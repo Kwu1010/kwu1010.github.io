@@ -8,3 +8,8 @@ Use MongoDB to store project items to allow for queries of what was language, to
     MCFunctions should have multiple downloadable versions for compatibility across MC versions
 
 Create a status indicator using JS, where it shows if queries are possible currently based on in MongoDB queries have been used up
+Specify that projects will be shown even if no more queries can be made (so you remember to update both for consistency)
+
+Each project should have a page, with a slideshow of images to show off the code, GUI, or use
+Images are stored in the images folder under projects
+MongoDB should store the path for each project html as an attribute

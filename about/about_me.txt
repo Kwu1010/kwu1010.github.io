@@ -1,0 +1,2 @@
+About should list skills acquired
+About should list organizations I have worked at
