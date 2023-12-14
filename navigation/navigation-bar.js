@@ -9,7 +9,6 @@ function loadNavigationBar() {
                     <li><a href="/404/404.html">Projects</a></li>
                     <li><a href="https://github.com/kwu1010">Github</a></li>
                     <li><a href="https://www.linkedin.com/in/kevin-wu-667a50266/">LinkedIn</a></li>
-                    <li><a href="/contact/contact_me.html">Contact Me</a></li>
                 </ul>
             </nav>
         </div>
