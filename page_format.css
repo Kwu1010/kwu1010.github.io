@@ -3,6 +3,11 @@ body {
     margin: 0;
 }
 
+a {
+    color: #ffffff;
+    text-decoration: none; /* Remove underline */
+}
+
 .textbox {
     background-color: #4b546d;
 	opacity: 0.8;
@@ -27,4 +32,31 @@ body {
     align-items: center;
     margin: 0 auto;
     overflow: auto;
+}
+
+.grid {
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.griditem {
+    border: 1px solid #4b546d;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    background-color: #ffffff;    
+    width: 240px;
+    height: 240px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ico {
+    width: auto;
+    height: 520px;
+    scale: 0.4;
 }
