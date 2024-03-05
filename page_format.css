@@ -42,17 +42,11 @@ a {
 }
 
 .griditem {
-    border: 1px solid #4b546d;
+    border: 1px solid #ffffff;
     border-radius: 5px;
-    padding: 10px;
-    margin: 10px;
-    background-color: #ffffff;    
-    width: 240px;
-    height: 240px;
-    overflow: hidden;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    padding: 50px;
+    margin: 50px;
+    background-color: #4b546d;
 }
 
 .ico {
